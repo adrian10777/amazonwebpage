@@ -1,23 +1,26 @@
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "Amazon Amazon Amazon"
-      ". . ."
-      ". . .";
-  }
-  #img {
-      position: center;
-      flex-wrap: ;
+ #img {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
       width: 10%;
-      height: 5%;
+      height: 15%;
+      margin: auto;
   }
 
-  .card-body {
-      position: center;
+  #button {
+    background: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29
+  }
+
+#card {
+    margin: auto;
+    height: 40%;
+}
+
+.card-body {
+      display: flex;
+      flex-direction: column;
   }
   
   .Amazon { grid-area: Amazon; }
